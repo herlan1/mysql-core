@@ -1,0 +1,9 @@
+C:\dev\mysql-core\src\MysqlCore.Comum\bin\Debug\netstandard2.0\MysqlCore.Comum.deps.json
+C:\dev\mysql-core\src\MysqlCore.Comum\bin\Debug\netstandard2.0\MysqlCore.Comum.dll
+C:\dev\mysql-core\src\MysqlCore.Comum\bin\Debug\netstandard2.0\MysqlCore.Comum.pdb
+C:\dev\mysql-core\src\MysqlCore.Comum\obj\Debug\netstandard2.0\MysqlCore.Comum.csprojAssemblyReference.cache
+C:\dev\mysql-core\src\MysqlCore.Comum\obj\Debug\netstandard2.0\MysqlCore.Comum.csproj.CoreCompileInputs.cache
+C:\dev\mysql-core\src\MysqlCore.Comum\obj\Debug\netstandard2.0\MysqlCore.Comum.AssemblyInfoInputs.cache
+C:\dev\mysql-core\src\MysqlCore.Comum\obj\Debug\netstandard2.0\MysqlCore.Comum.AssemblyInfo.cs
+C:\dev\mysql-core\src\MysqlCore.Comum\obj\Debug\netstandard2.0\MysqlCore.Comum.dll
+C:\dev\mysql-core\src\MysqlCore.Comum\obj\Debug\netstandard2.0\MysqlCore.Comum.pdb
