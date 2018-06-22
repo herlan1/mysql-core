@@ -177,26 +177,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Herlan\\.nuget\\packages\\": {},
+    "C:\\Users\\invent\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
-    "restoreSettings": {
-      "hideWarningsAndErrors": true
-    },
     "restore": {
       "projectUniqueName": "C:\\dev\\mysql-core\\src\\MysqlCore.Comum\\MysqlCore.Comum.csproj",
       "projectName": "MysqlCore.Comum",
       "projectPath": "C:\\dev\\mysql-core\\src\\MysqlCore.Comum\\MysqlCore.Comum.csproj",
-      "packagesPath": "C:\\Users\\Herlan\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\invent\\.nuget\\packages\\",
       "outputPath": "C:\\dev\\mysql-core\\src\\MysqlCore.Comum\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Herlan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\invent\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

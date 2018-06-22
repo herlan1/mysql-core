@@ -2463,7 +2463,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Herlan\\.nuget\\packages\\": {},
+    "C:\\Users\\invent\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -2472,14 +2472,14 @@
       "projectUniqueName": "C:\\dev\\mysql-core\\src\\MysqlCore.Dominio\\MysqlCore.Dominio.csproj",
       "projectName": "MysqlCore.Dominio",
       "projectPath": "C:\\dev\\mysql-core\\src\\MysqlCore.Dominio\\MysqlCore.Dominio.csproj",
-      "packagesPath": "C:\\Users\\Herlan\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\invent\\.nuget\\packages\\",
       "outputPath": "C:\\dev\\mysql-core\\src\\MysqlCore.Dominio\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Herlan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\invent\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

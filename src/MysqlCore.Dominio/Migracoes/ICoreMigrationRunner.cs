@@ -8,7 +8,5 @@ namespace MysqlCore.Dominio.Migracoes
         void MigrateDownAll();
         bool TherIsMigrationWithoutRun();
         MigrationRunner ObterMigrationRunner();
-        string Description { get; set; }
-        string NomeDoBancoDoAddon { get; set; }
     }
 }

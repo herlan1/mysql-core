@@ -10,6 +10,8 @@
       "MysqlCore.Infra/1.0.0": {
         "dependencies": {
           "FluentMigrator": "3.1.2",
+          "FluentMigrator.Runner": "3.1.2",
+          "MysqlCore.Comum": "1.0.0",
           "MysqlCore.Dominio": "1.0.0",
           "NETStandard.Library": "2.0.1"
         },
@@ -409,6 +411,11 @@
         }
       },
       "System.ValueTuple/4.4.0": {},
+      "MysqlCore.Comum/1.0.0": {
+        "runtime": {
+          "MysqlCore.Comum.dll": {}
+        }
+      },
       "MysqlCore.Dominio/1.0.0": {
         "dependencies": {
           "FluentMigrator": "3.1.2",
@@ -789,6 +796,11 @@
       "sha512": "sha512-BahUww/+mdP4ARCAh2RQhQTg13wYLVrBb9SYVgW8ZlrwjraGCXHGjo0oIiUfZ34LUZkMMR+RAzR7dEY4S1HeQQ==",
       "path": "system.valuetuple/4.4.0",
       "hashPath": "system.valuetuple.4.4.0.nupkg.sha512"
+    },
+    "MysqlCore.Comum/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "MysqlCore.Dominio/1.0.0": {
       "type": "project",
