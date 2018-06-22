@@ -7,3 +7,6 @@ C:\dev\mysql-core\src\MysqlCore.Infra\obj\Debug\netstandard2.0\MysqlCore.Infra.A
 C:\dev\mysql-core\src\MysqlCore.Infra\obj\Debug\netstandard2.0\MysqlCore.Infra.AssemblyInfo.cs
 C:\dev\mysql-core\src\MysqlCore.Infra\obj\Debug\netstandard2.0\MysqlCore.Infra.dll
 C:\dev\mysql-core\src\MysqlCore.Infra\obj\Debug\netstandard2.0\MysqlCore.Infra.pdb
+C:\dev\mysql-core\src\MysqlCore.Infra\bin\Debug\netstandard2.0\MysqlCore.Dominio.dll
+C:\dev\mysql-core\src\MysqlCore.Infra\bin\Debug\netstandard2.0\MysqlCore.Dominio.pdb
+C:\dev\mysql-core\src\MysqlCore.Infra\obj\Debug\netstandard2.0\MysqlCore.Infra.csproj.CopyComplete

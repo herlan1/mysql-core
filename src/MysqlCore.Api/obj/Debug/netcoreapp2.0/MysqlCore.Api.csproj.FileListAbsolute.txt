@@ -3,9 +3,12 @@ C:\dev\mysql-core\src\MysqlCore.Api\bin\Debug\netcoreapp2.0\MysqlCore.Api.runtim
 C:\dev\mysql-core\src\MysqlCore.Api\bin\Debug\netcoreapp2.0\MysqlCore.Api.runtimeconfig.dev.json
 C:\dev\mysql-core\src\MysqlCore.Api\bin\Debug\netcoreapp2.0\MysqlCore.Api.dll
 C:\dev\mysql-core\src\MysqlCore.Api\bin\Debug\netcoreapp2.0\MysqlCore.Api.pdb
+C:\dev\mysql-core\src\MysqlCore.Api\bin\Debug\netcoreapp2.0\MysqlCore.Comum.dll
+C:\dev\mysql-core\src\MysqlCore.Api\bin\Debug\netcoreapp2.0\MysqlCore.Comum.pdb
 C:\dev\mysql-core\src\MysqlCore.Api\obj\Debug\netcoreapp2.0\MysqlCore.Api.csprojAssemblyReference.cache
 C:\dev\mysql-core\src\MysqlCore.Api\obj\Debug\netcoreapp2.0\MysqlCore.Api.csproj.CoreCompileInputs.cache
 C:\dev\mysql-core\src\MysqlCore.Api\obj\Debug\netcoreapp2.0\MysqlCore.Api.AssemblyInfoInputs.cache
 C:\dev\mysql-core\src\MysqlCore.Api\obj\Debug\netcoreapp2.0\MysqlCore.Api.AssemblyInfo.cs
+C:\dev\mysql-core\src\MysqlCore.Api\obj\Debug\netcoreapp2.0\MysqlCore.Api.csproj.CopyComplete
 C:\dev\mysql-core\src\MysqlCore.Api\obj\Debug\netcoreapp2.0\MysqlCore.Api.dll
 C:\dev\mysql-core\src\MysqlCore.Api\obj\Debug\netcoreapp2.0\MysqlCore.Api.pdb
