@@ -6,3 +6,4 @@ C:\dev\mysql-core\src\MysqlCore.Comum\obj\Debug\netstandard2.0\MysqlCore.Comum.A
 C:\dev\mysql-core\src\MysqlCore.Comum\obj\Debug\netstandard2.0\MysqlCore.Comum.AssemblyInfo.cs
 C:\dev\mysql-core\src\MysqlCore.Comum\obj\Debug\netstandard2.0\MysqlCore.Comum.dll
 C:\dev\mysql-core\src\MysqlCore.Comum\obj\Debug\netstandard2.0\MysqlCore.Comum.pdb
+C:\dev\mysql-core\src\MysqlCore.Comum\obj\Debug\netstandard2.0\MysqlCore.Comum.csprojAssemblyReference.cache

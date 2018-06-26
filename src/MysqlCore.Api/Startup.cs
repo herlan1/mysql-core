@@ -6,7 +6,9 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using MysqlCore.Comum;
+using MysqlCore.Dominio.Cliente;
 using MysqlCore.Dominio.Migracoes;
+using MysqlCore.Infra.Cliente;
 using MysqlCore.Infra.Migracoes;
 
 namespace MysqlCore.Api
@@ -40,6 +42,7 @@ namespace MysqlCore.Api
             });
 
             services.AddTransient<ICoreMigrationRunner, CoreMigrationRunner>();
+            services.AddTransient<IClienteRepositorio, ClienteRepositorio>();
 
             services.AddCors();
         }
