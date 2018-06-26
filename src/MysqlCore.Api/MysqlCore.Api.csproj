@@ -13,7 +13,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\MysqlCore.Comum\MysqlCore.Comum.csproj" />
+    <ProjectReference Include="..\MysqlCore.Dominio\MysqlCore.Dominio.csproj" />
+    <ProjectReference Include="..\MysqlCore.Infra\MysqlCore.Infra.csproj" />
   </ItemGroup>
 
 </Project>

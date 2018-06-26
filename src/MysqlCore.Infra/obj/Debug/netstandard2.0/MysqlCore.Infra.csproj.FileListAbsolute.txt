@@ -1,12 +1,14 @@
 C:\dev\mysql-core\src\MysqlCore.Infra\bin\Debug\netstandard2.0\MysqlCore.Infra.deps.json
 C:\dev\mysql-core\src\MysqlCore.Infra\bin\Debug\netstandard2.0\MysqlCore.Infra.dll
 C:\dev\mysql-core\src\MysqlCore.Infra\bin\Debug\netstandard2.0\MysqlCore.Infra.pdb
+C:\dev\mysql-core\src\MysqlCore.Infra\bin\Debug\netstandard2.0\MysqlCore.Comum.dll
+C:\dev\mysql-core\src\MysqlCore.Infra\bin\Debug\netstandard2.0\MysqlCore.Dominio.dll
+C:\dev\mysql-core\src\MysqlCore.Infra\bin\Debug\netstandard2.0\MysqlCore.Comum.pdb
+C:\dev\mysql-core\src\MysqlCore.Infra\bin\Debug\netstandard2.0\MysqlCore.Dominio.pdb
 C:\dev\mysql-core\src\MysqlCore.Infra\obj\Debug\netstandard2.0\MysqlCore.Infra.csprojAssemblyReference.cache
 C:\dev\mysql-core\src\MysqlCore.Infra\obj\Debug\netstandard2.0\MysqlCore.Infra.csproj.CoreCompileInputs.cache
 C:\dev\mysql-core\src\MysqlCore.Infra\obj\Debug\netstandard2.0\MysqlCore.Infra.AssemblyInfoInputs.cache
 C:\dev\mysql-core\src\MysqlCore.Infra\obj\Debug\netstandard2.0\MysqlCore.Infra.AssemblyInfo.cs
+C:\dev\mysql-core\src\MysqlCore.Infra\obj\Debug\netstandard2.0\MysqlCore.Infra.csproj.CopyComplete
 C:\dev\mysql-core\src\MysqlCore.Infra\obj\Debug\netstandard2.0\MysqlCore.Infra.dll
 C:\dev\mysql-core\src\MysqlCore.Infra\obj\Debug\netstandard2.0\MysqlCore.Infra.pdb
-C:\dev\mysql-core\src\MysqlCore.Infra\bin\Debug\netstandard2.0\MysqlCore.Dominio.dll
-C:\dev\mysql-core\src\MysqlCore.Infra\bin\Debug\netstandard2.0\MysqlCore.Dominio.pdb
-C:\dev\mysql-core\src\MysqlCore.Infra\obj\Debug\netstandard2.0\MysqlCore.Infra.csproj.CopyComplete

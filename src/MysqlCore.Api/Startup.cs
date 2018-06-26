@@ -1,16 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Authorization;
+﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc.Authorization;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using MysqlCore.Comum;
+using MysqlCore.Dominio.Migracoes;
+using MysqlCore.Infra.Migracoes;
 
 namespace MysqlCore.Api
 {
@@ -18,6 +15,8 @@ namespace MysqlCore.Api
     {
 
         public IConfiguration Configuration { get; set; }
+
+        private ICoreMigrationRunner _migrationRunner;
 
         public Startup(IHostingEnvironment env)
         {
@@ -40,17 +39,25 @@ namespace MysqlCore.Api
                 config.Filters.Add(new AuthorizeFilter(policy));
             });
 
+            services.AddTransient<ICoreMigrationRunner, CoreMigrationRunner>();
+
             services.AddCors();
         }
-        
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
+
+        public void Configure(IApplicationBuilder app, IHostingEnvironment env,
+            ILoggerFactory loggerFactory, ICoreMigrationRunner migrationRunner)
         {
+
             loggerFactory.AddConsole();
 
             if (env.IsDevelopment())
                 app.UseDeveloperExceptionPage();
 
             app.UseMvc();
+
+            _migrationRunner = migrationRunner;
+
+            _migrationRunner.MigrateUpAll();
 
             Runtime.ConnectionString = Configuration.GetConnectionString("connection");
         }

@@ -4,6 +4,10 @@ C:\dev\mysql-core\src\MysqlCore.Api\bin\Debug\netcoreapp2.0\MysqlCore.Api.runtim
 C:\dev\mysql-core\src\MysqlCore.Api\bin\Debug\netcoreapp2.0\MysqlCore.Api.dll
 C:\dev\mysql-core\src\MysqlCore.Api\bin\Debug\netcoreapp2.0\MysqlCore.Api.pdb
 C:\dev\mysql-core\src\MysqlCore.Api\bin\Debug\netcoreapp2.0\MysqlCore.Comum.dll
+C:\dev\mysql-core\src\MysqlCore.Api\bin\Debug\netcoreapp2.0\MysqlCore.Dominio.dll
+C:\dev\mysql-core\src\MysqlCore.Api\bin\Debug\netcoreapp2.0\MysqlCore.Infra.dll
+C:\dev\mysql-core\src\MysqlCore.Api\bin\Debug\netcoreapp2.0\MysqlCore.Dominio.pdb
+C:\dev\mysql-core\src\MysqlCore.Api\bin\Debug\netcoreapp2.0\MysqlCore.Infra.pdb
 C:\dev\mysql-core\src\MysqlCore.Api\bin\Debug\netcoreapp2.0\MysqlCore.Comum.pdb
 C:\dev\mysql-core\src\MysqlCore.Api\obj\Debug\netcoreapp2.0\MysqlCore.Api.csprojAssemblyReference.cache
 C:\dev\mysql-core\src\MysqlCore.Api\obj\Debug\netcoreapp2.0\MysqlCore.Api.csproj.CoreCompileInputs.cache
