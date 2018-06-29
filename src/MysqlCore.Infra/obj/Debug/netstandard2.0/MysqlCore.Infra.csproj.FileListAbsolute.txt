@@ -12,3 +12,6 @@ C:\dev\mysql-core\src\MysqlCore.Infra\obj\Debug\netstandard2.0\MysqlCore.Infra.A
 C:\dev\mysql-core\src\MysqlCore.Infra\obj\Debug\netstandard2.0\MysqlCore.Infra.csproj.CopyComplete
 C:\dev\mysql-core\src\MysqlCore.Infra\obj\Debug\netstandard2.0\MysqlCore.Infra.dll
 C:\dev\mysql-core\src\MysqlCore.Infra\obj\Debug\netstandard2.0\MysqlCore.Infra.pdb
+<<<<<<< HEAD
+=======
+>>>>>>> ac7dc02da00883213705d2e07227ae5296773bf8

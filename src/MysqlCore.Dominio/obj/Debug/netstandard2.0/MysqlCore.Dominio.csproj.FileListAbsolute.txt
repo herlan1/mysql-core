@@ -1,7 +1,6 @@
 C:\dev\mysql-core\src\MysqlCore.Dominio\bin\Debug\netstandard2.0\MysqlCore.Dominio.deps.json
 C:\dev\mysql-core\src\MysqlCore.Dominio\bin\Debug\netstandard2.0\MysqlCore.Dominio.dll
 C:\dev\mysql-core\src\MysqlCore.Dominio\bin\Debug\netstandard2.0\MysqlCore.Dominio.pdb
-C:\dev\mysql-core\src\MysqlCore.Dominio\obj\Debug\netstandard2.0\MysqlCore.Dominio.csprojAssemblyReference.cache
 C:\dev\mysql-core\src\MysqlCore.Dominio\obj\Debug\netstandard2.0\MysqlCore.Dominio.csproj.CoreCompileInputs.cache
 C:\dev\mysql-core\src\MysqlCore.Dominio\obj\Debug\netstandard2.0\MysqlCore.Dominio.AssemblyInfoInputs.cache
 C:\dev\mysql-core\src\MysqlCore.Dominio\obj\Debug\netstandard2.0\MysqlCore.Dominio.AssemblyInfo.cs

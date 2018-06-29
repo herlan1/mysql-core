@@ -6,7 +6,6 @@ C:\dev\mysql-core\src\MysqlCore.Tests\bin\Debug\netcoreapp2.0\MysqlCore.Tests.ru
 C:\dev\mysql-core\src\MysqlCore.Tests\bin\Debug\netcoreapp2.0\MysqlCore.Tests.runtimeconfig.dev.json
 C:\dev\mysql-core\src\MysqlCore.Tests\bin\Debug\netcoreapp2.0\MysqlCore.Tests.dll
 C:\dev\mysql-core\src\MysqlCore.Tests\bin\Debug\netcoreapp2.0\MysqlCore.Tests.pdb
-C:\dev\mysql-core\src\MysqlCore.Tests\obj\Debug\netcoreapp2.0\MysqlCore.Tests.csprojAssemblyReference.cache
 C:\dev\mysql-core\src\MysqlCore.Tests\obj\Debug\netcoreapp2.0\MysqlCore.Tests.csproj.CoreCompileInputs.cache
 C:\dev\mysql-core\src\MysqlCore.Tests\obj\Debug\netcoreapp2.0\MysqlCore.Tests.AssemblyInfoInputs.cache
 C:\dev\mysql-core\src\MysqlCore.Tests\obj\Debug\netcoreapp2.0\MysqlCore.Tests.AssemblyInfo.cs

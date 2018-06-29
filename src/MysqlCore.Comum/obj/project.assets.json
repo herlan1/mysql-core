@@ -182,9 +182,6 @@
   },
   "project": {
     "version": "1.0.0",
-    "restoreSettings": {
-      "hideWarningsAndErrors": true
-    },
     "restore": {
       "projectUniqueName": "C:\\dev\\mysql-core\\src\\MysqlCore.Comum\\MysqlCore.Comum.csproj",
       "projectName": "MysqlCore.Comum",
