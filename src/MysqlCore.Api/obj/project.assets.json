@@ -256,6 +256,20 @@
           "build/netstandard2.0/_._": {}
         }
       },
+      "FluentValidation/7.6.103": {
+        "type": "package",
+        "dependencies": {
+          "System.Collections.Concurrent": "4.3.0",
+          "System.ComponentModel.Annotations": "4.4.1",
+          "System.ComponentModel.Primitives": "4.3.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/FluentValidation.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/FluentValidation.dll": {}
+        }
+      },
       "Google.Protobuf/3.5.1": {
         "type": "package",
         "dependencies": {
@@ -5078,7 +5092,8 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "FluentMigrator": "3.1.2",
-          "FluentMigrator.Runner": "3.1.2"
+          "FluentMigrator.Runner": "3.1.2",
+          "FluentValidation": "7.6.103"
         },
         "compile": {
           "bin/placeholder/MysqlCore.Dominio.dll": {}
@@ -5398,6 +5413,23 @@
         "runtimes/win-x86/sqlceme40.dll",
         "runtimes/win-x86/sqlceqp40.dll",
         "runtimes/win-x86/sqlcese40.dll"
+      ]
+    },
+    "FluentValidation/7.6.103": {
+      "sha512": "QmMkxUgd97IpWW+JQTeSeieqQkkUyqJEtJy+XchyYwF3AeKGo4eqU67erM33BifpF1BOcwGGuWyi2r88EZvDqA==",
+      "type": "package",
+      "path": "fluentvalidation/7.6.103",
+      "files": [
+        "fluentvalidation.7.6.103.nupkg.sha512",
+        "fluentvalidation.nuspec",
+        "lib/net45/FluentValidation.dll",
+        "lib/net45/FluentValidation.xml",
+        "lib/netstandard1.1/FluentValidation.dll",
+        "lib/netstandard1.1/FluentValidation.xml",
+        "lib/netstandard1.6/FluentValidation.dll",
+        "lib/netstandard1.6/FluentValidation.xml",
+        "lib/netstandard2.0/FluentValidation.dll",
+        "lib/netstandard2.0/FluentValidation.xml"
       ]
     },
     "Google.Protobuf/3.5.1": {
@@ -13438,6 +13470,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
+      "FluentValidation >= 7.6.103",
       "Microsoft.AspNetCore.All >= 2.0.8",
       "Microsoft.NETCore.App >= 2.0.0",
       "MysqlCore.Dominio >= 1.0.0",
@@ -13492,6 +13525,10 @@
     "frameworks": {
       "netcoreapp2.0": {
         "dependencies": {
+          "FluentValidation": {
+            "target": "Package",
+            "version": "[7.6.103, )"
+          },
           "Microsoft.AspNetCore.All": {
             "target": "Package",
             "version": "[2.0.8, )"

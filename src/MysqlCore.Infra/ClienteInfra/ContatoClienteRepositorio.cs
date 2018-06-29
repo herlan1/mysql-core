@@ -1,9 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
-using MysqlCore.Dominio.Cliente;
+using MysqlCore.Dominio.ClienteDominio;
 
-namespace MysqlCore.Infra.Cliente
+namespace MysqlCore.Infra.ClienteInfra
 {
     public class ContatoClienteRepositorio : IContatoClienteRepositorio
     {

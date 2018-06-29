@@ -1,4 +1,4 @@
-﻿namespace MysqlCore.Dominio.Cliente
+﻿namespace MysqlCore.Dominio.ClienteDominio
 {
     public class ContatoCliente
     {

@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Authorization;
+﻿using FluentValidation;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc.Authorization;
@@ -6,9 +7,9 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using MysqlCore.Comum;
-using MysqlCore.Dominio.Cliente;
+using MysqlCore.Dominio.ClienteDominio;
 using MysqlCore.Dominio.Migracoes;
-using MysqlCore.Infra.Cliente;
+using MysqlCore.Infra.ClienteInfra;
 using MysqlCore.Infra.Migracoes;
 
 namespace MysqlCore.Api
@@ -33,6 +34,8 @@ namespace MysqlCore.Api
 
         public void ConfigureServices(IServiceCollection services)
         {
+
+
             services.AddMvc(config =>
             {
                 var policy = new AuthorizationPolicyBuilder()
@@ -43,6 +46,8 @@ namespace MysqlCore.Api
 
             services.AddTransient<ICoreMigrationRunner, CoreMigrationRunner>();
             services.AddTransient<IClienteRepositorio, ClienteRepositorio>();
+            services.AddTransient<IValidator<Cliente>, ValidadorDeCliente>();
+            services.AddTransient<ServicoDeCliente, ServicoDeCliente>();
 
             services.AddCors();
         }

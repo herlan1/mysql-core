@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.0",
-    "signature": "dd79cdf712d1a561cb2233983c26d6075fbae8b0"
+    "signature": "8c14f54895bc516558490771f5c7d440acd340cd"
   },
   "compilationOptions": {
     "defines": [
@@ -23,6 +23,7 @@
     ".NETCoreApp,Version=v2.0": {
       "MysqlCore.Api/1.0.0": {
         "dependencies": {
+          "FluentValidation": "7.6.103",
           "Microsoft.AspNetCore.All": "2.0.8",
           "Microsoft.NETCore.App": "2.0.0",
           "MysqlCore.Dominio": "1.0.0",
@@ -266,6 +267,19 @@
         "compile": {
           "lib/netstandard2.0/FluentMigrator.Runner.SqlServerCe.dll": {},
           "lib/netstandard2.0/System.Data.SqlServerCe.dll": {}
+        }
+      },
+      "FluentValidation/7.6.103": {
+        "dependencies": {
+          "System.Collections.Concurrent": "4.3.0",
+          "System.ComponentModel.Annotations": "4.4.1",
+          "System.ComponentModel.Primitives": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/FluentValidation.dll": {}
+        },
+        "compile": {
+          "lib/netstandard2.0/FluentValidation.dll": {}
         }
       },
       "Google.Protobuf/3.5.1": {
@@ -4096,7 +4110,8 @@
       "MysqlCore.Dominio/1.0.0": {
         "dependencies": {
           "FluentMigrator": "3.1.2",
-          "FluentMigrator.Runner": "3.1.2"
+          "FluentMigrator.Runner": "3.1.2",
+          "FluentValidation": "7.6.103"
         },
         "runtime": {
           "MysqlCore.Dominio.dll": {}
@@ -4430,6 +4445,13 @@
       "sha512": "sha512-RhJj0JdJhzU5c4AGm4iaD4dVdT4qUuBNpkmmmvhuWYtPaAE11+UdmIY6dqJnujSLBU3uvoyxRFhoQT0P+oP+qw==",
       "path": "fluentmigrator.runner.sqlserverce/3.1.2",
       "hashPath": "fluentmigrator.runner.sqlserverce.3.1.2.nupkg.sha512"
+    },
+    "FluentValidation/7.6.103": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QmMkxUgd97IpWW+JQTeSeieqQkkUyqJEtJy+XchyYwF3AeKGo4eqU67erM33BifpF1BOcwGGuWyi2r88EZvDqA==",
+      "path": "fluentvalidation/7.6.103",
+      "hashPath": "fluentvalidation.7.6.103.nupkg.sha512"
     },
     "Google.Protobuf/3.5.1": {
       "type": "package",

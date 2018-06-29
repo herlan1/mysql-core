@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace MysqlCore.Dominio.Cliente
+namespace MysqlCore.Dominio.ClienteDominio
 {
     public interface IContatoClienteRepositorio
     {

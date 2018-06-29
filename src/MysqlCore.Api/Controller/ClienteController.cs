@@ -2,38 +2,42 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using MysqlCore.Dominio.Cliente;
+using MysqlCore.Dominio.ClienteDominio;
 
 namespace MysqlCore.Api.Controller
 {
 
-    [Route("api/[controller]")]
-    public class ClienteController : ControllerBase
+    public class ClienteController : BaseController
     {
 
-        private readonly IClienteRepositorio _clienteRepositorio;
+        private readonly ServicoDeCliente _servicoCliente;
 
         public ClienteController(
-            IClienteRepositorio clienteRepositorio)
+            ServicoDeCliente servicoCliente)
         {
 
-            _clienteRepositorio = clienteRepositorio;
+            _servicoCliente = servicoCliente;
 
         }
 
-        // POST api/<controller>
         [HttpPost]
-        public void Post([FromBody]string value)
+        [Route("v1/cliente")]
+        [AllowAnonymous]
+        public async Task<IActionResult> Post([FromBody]Cliente cliente)
         {
+            var clienter = _servicoCliente.Incluir(cliente);
 
+            return await Response(clienter);
         }
 
-        // GET: api/<controller>
         [HttpGet]
-        public IEnumerable<string> Get()
+        [Route("v1/getcliente")]
+        [AllowAnonymous]
+        public IActionResult Get()
         {
-            return new string[] { "value1", "value2" };
+            return Ok(_servicoCliente.ObterTodos());
         }
     }
 }
